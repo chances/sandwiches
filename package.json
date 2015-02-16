@@ -1,0 +1,34 @@
+{
+  "name": "sandwiches",
+  "version": "0.1.0",
+  "description": "A Makefile creation and management utility for any project",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "sandwich": "bin/sandwich"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chances/sandwiches"
+  },
+  "keywords": [
+    "make",
+    "Makefile",
+    "build",
+    "cli"
+  ],
+  "author": "Chance Snow <chances@cat.pdx.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chances/sandwiches/issues"
+  },
+  "homepage": "https://github.com/chances/sandwiches",
+  "dependencies": {
+    "nopt": "^3.0.1"
+  }
+}
