@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'sandwich';
+
+// External libraries
+
+// TODO: Figure out what I need
+
+// Internal libraries
+
+//TODO: Design this system
+
+
+var basedir = process.cwd();
