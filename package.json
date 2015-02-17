@@ -9,7 +9,7 @@
     "sandwich": "bin/sandwich.js"
   },
   "preferGlobal": true,
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "test/index.js"
   },
