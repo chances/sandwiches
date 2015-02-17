@@ -45,7 +45,10 @@ TODO: Design what sandwich toppings should exactly be. Something like mixins?
 
 TODO: Create more documentation when the code reflects a need. (Soon)
 
+## License
+
 [![License][license-image]][license-url]
+Copyright © 2015 Chance Snow
 
 [npm-url]: https://npmjs.org/package/sandwiches
 [npm-image]: https://badge.fury.io/js/sandwiches.svg

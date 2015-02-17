@@ -1,6 +1,6 @@
 {
   "name": "sandwiches",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A Makefile creation and management utility for any project",
   "engines": {
     "node": ">=0.10.0"
