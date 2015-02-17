@@ -22,7 +22,9 @@
     "Makefile",
     "build",
     "management",
-    "cli"
+    "cli",
+    "sandwich",
+    "recipe"
   ],
   "author": "Chance Snow <chances@cat.pdx.edu>",
   "license": "MIT",
