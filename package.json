@@ -9,6 +9,7 @@
     "sandwich": "bin/sandwich.js"
   },
   "preferGlobal": true,
+  "main": "index.js",
   "scripts": {
     "test": "test/index.js"
   },
@@ -33,6 +34,7 @@
     "bluebird": "^2.9.9",
     "chalk": "^0.5.1",
     "consolidate": "^0.11.0",
+    "interpret": "^0.4.3",
     "liftoff": "^2.0.1",
     "minimist": "^1.1.0",
     "template": "^0.9.3"
