@@ -5,11 +5,15 @@
 var argv = require('minimist')(process.argv.slice(2));
 var Liftoff = require('liftoff');
 
-//TODO: Design this system
+// TODO: Design this system
 
 // set env var for ORIGINAL cwd
 // // before anything touches it
 var basedir = process.env.INIT_CWD = process.cwd();
+
+// Parse our arguments
+var versionFlag = argv.v || argv.version;
+var restArgs = argv._; // Files, perhaps?
 
 var cli = new Liftoff({
     name: 'sandwich',
