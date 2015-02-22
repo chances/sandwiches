@@ -5,6 +5,20 @@
 var chalk = require('chalk');
 var sw = require('../');
 
-console.log(chalk.green('Non existent test passed!'));
+var should = require('chai').should();
 
-// TODO: Write tests
+describe('sandwiches', function () {
+    describe('module', function () {
+        it('should contain a class named Sandwich', function () {
+            should.exist(sw.Sandwich);
+        });
+        it('should contain a class named Recipe', function () {
+            should.exist(sw.Recipe);
+        });
+        it('should contain a class named Topping', function () {
+            should.exist(sw.Topping);
+        });
+    });
+});
+
+// TODO: Write better tests
