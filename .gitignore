@@ -1,9 +1,11 @@
+.idea/
 build/
 components/
 coverage/
-.idea/
-ts/declarations/*/
+lib/
 node_modules/
+test/
+ts/declarations/*/
 
 .brackets.json
 .DS_Store
