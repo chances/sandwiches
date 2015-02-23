@@ -1,0 +1,21 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "ts/declarations",
+  "bundle": "ts/declarations/tsd.d.ts",
+  "installed": {
+    "chai/chai.d.ts": {
+      "commit": "8e85bba87a8c95c7f357e78e3d5d1269c337741d"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "8e85bba87a8c95c7f357e78e3d5d1269c337741d"
+    },
+    "chalk/chalk.d.ts": {
+      "commit": "8e85bba87a8c95c7f357e78e3d5d1269c337741d"
+    },
+    "node/node-0.10.d.ts": {
+      "commit": "2272849a06f2b68205611665e6b86ffec58c1e10"
+    }
+  }
+}

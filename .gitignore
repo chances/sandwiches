@@ -2,8 +2,12 @@ build/
 components/
 coverage/
 .idea/
+ts/declarations/*/
 node_modules/
 
+.brackets.json
 .DS_Store
 *.log
 *.node
+
+ts/declarations/tsd.d.ts
