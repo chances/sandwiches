@@ -1,9 +1,9 @@
 {
   "name": "sandwiches",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Makefile creation and management utility for any project",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   },
   "bin": {
     "sandwich": "bin/sandwich.js"
