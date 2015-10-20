@@ -1,0 +1,12 @@
+.idea/
+build/
+components/
+coverage/
+test/
+ts/
+
+.brackets.json
+.jshintrc
+.todo
+.travis.yml
+Makefile

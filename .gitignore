@@ -1,9 +1,15 @@
+.idea/
 build/
 components/
 coverage/
-.idea/
+lib/
 node_modules/
+test/
+ts/declarations/*/
 
+.brackets.json
 .DS_Store
 *.log
 *.node
+
+!ts/declarations/sandwiches.d.ts

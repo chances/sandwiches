@@ -1,13 +1,11 @@
-#!/usr/bin/env node
+import chai = require('chai');
 
-"use strict";
+import sw = require('../lib/index');
 
-var chalk = require('chalk');
-var sw = require('../');
-
-var should = require('chai').should();
+var should = chai.should();
 
 describe('sandwiches', function () {
+
     describe('module', function () {
         it('should contain a class named Sandwich', function () {
             should.exist(sw.Sandwich);

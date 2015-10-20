@@ -1,0 +1,23 @@
+{
+  "version": "1.4.1",
+  "sourceMap": false,
+  "noExternalResolve": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "noLib": false
+  },
+  "filesGlob": [
+    "./ts/declarations/**/*.ts",
+
+    "./ts/test/*.ts",
+
+    "./ts/lib/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

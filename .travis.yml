@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - '0.10'
+  - "4"
+  - "0.12"
+  - "iojs"
+before_install:
+  - 'npm install -g typescript tsd'
+before_script:
+  - 'tsd reinstall -o'
+  - 'tsd update -o'
+  - 'make'
