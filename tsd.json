@@ -6,16 +6,16 @@
   "bundle": "ts/declarations/tsd.d.ts",
   "installed": {
     "chai/chai.d.ts": {
-      "commit": "2272849a06f2b68205611665e6b86ffec58c1e10"
+      "commit": "85fb1aa205b1a113bdbaeb72199d1c8692b5f143"
     },
     "mocha/mocha.d.ts": {
-      "commit": "2272849a06f2b68205611665e6b86ffec58c1e10"
+      "commit": "85fb1aa205b1a113bdbaeb72199d1c8692b5f143"
     },
     "chalk/chalk.d.ts": {
-      "commit": "2272849a06f2b68205611665e6b86ffec58c1e10"
+      "commit": "85fb1aa205b1a113bdbaeb72199d1c8692b5f143"
     },
-    "node/node-0.10.d.ts": {
-      "commit": "2272849a06f2b68205611665e6b86ffec58c1e10"
+    "node/node.d.ts": {
+      "commit": "85fb1aa205b1a113bdbaeb72199d1c8692b5f143"
     }
   }
 }
