@@ -3,7 +3,6 @@ interface Function {
 }
 
 interface Error {
-    stack?: string;
     captureStackTrace?: CaptureStackTraceImpl;
 }
 
