@@ -12,4 +12,4 @@ ts/declarations/*/
 *.log
 *.node
 
-ts/declarations/tsd.d.ts
+!ts/declarations/sandwiches.d.ts
