@@ -1,5 +1,3 @@
-/// <reference path="../declarations/tsd.d.ts" />
-
 export class GenericError implements Error {
     public name: string;
     public message: string;

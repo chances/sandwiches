@@ -1,5 +1,3 @@
-/// <reference path="../declarations/tsd.d.ts" />
-
 import e = require('./errors');
 import Recipe = require('./Recipe');
 

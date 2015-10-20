@@ -1,5 +1,3 @@
-/// <reference path="../declarations/tsd.d.ts" />
-
 import chai = require('chai');
 import e = require('../lib/errors');
 
