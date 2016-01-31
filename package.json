@@ -36,10 +36,10 @@
   },
   "homepage": "https://github.com/chances/sandwiches",
   "dependencies": {
-    "bluebird": "^2.10.0",
+    "bluebird": "^3.1.5",
     "chalk": "^1.0.0",
-    "consolidate": "^0.13.0",
-    "interpret": "^0.6.0",
+    "consolidate": "^0.14.0",
+    "interpret": "^1.0.0",
     "liftoff": "^2.2.0",
     "minimist": "^1.2.0",
     "template": "^0.17.0"
