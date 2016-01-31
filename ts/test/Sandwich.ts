@@ -2,14 +2,14 @@ import chai = require('chai');
 import e = require('../lib/errors');
 import Sandwich = require('../lib/Sandwich');
 
-var expect = chai.expect,
-    should = chai.should();
+let expect = chai.expect;
+chai.should();
 
-describe('Sandwich', function () {
+describe('Sandwich', function (): void {
 
-    describe('.make', function () {
-        it('should require a Recipe', function () {
-            var make = function () {
+    describe('.make', function (): void {
+        it('should require a Recipe', function (): void {
+            let make = function (): void {
                 Sandwich.make(null);
             };
             expect(make).to.throw(e.ArgumentError);
@@ -17,9 +17,9 @@ describe('Sandwich', function () {
         });
     });
 
-    describe('.remake', function () {
-        it('should require a Recipe', function () {
-            var remake = function () {
+    describe('.remake', function (): void {
+        it('should require a Recipe', function (): void {
+            let remake = function (): void {
                 Sandwich.remake(null);
             };
             expect(remake).to.throw(e.ArgumentError);

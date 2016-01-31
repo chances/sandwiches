@@ -2,7 +2,7 @@ import Sandwich = require('./Sandwich');
 import Recipe = require('./Recipe');
 import Topping = require('./Topping');
 
-var sandwiches = {
+let sandwiches = {
     Sandwich: Sandwich,
     Recipe: Recipe,
     Topping: Topping

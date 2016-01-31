@@ -13,8 +13,10 @@ export class GenericError implements Error {
 export class ArgumentError extends GenericError {
     public name: string;
     public stack: string;
+    public argumentName: string;
 
-    constructor(message: string, public argumentName: string) {
+    constructor(message: string, argumentName: string) {
         super(message);
+        this.argumentName = argumentName;
     }
 }

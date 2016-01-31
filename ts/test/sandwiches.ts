@@ -2,18 +2,18 @@ import chai = require('chai');
 
 import sw = require('../lib/index');
 
-var should = chai.should();
+let should = chai.should();
 
-describe('sandwiches', function () {
+describe('sandwiches', function (): void {
 
-    describe('module', function () {
-        it('should contain a class named Sandwich', function () {
+    describe('module', function (): void {
+        it('should contain a class named Sandwich', function (): void {
             should.exist(sw.Sandwich);
         });
-        it('should contain a class named Recipe', function () {
+        it('should contain a class named Recipe', function (): void {
             should.exist(sw.Recipe);
         });
-        it('should contain a class named Topping', function () {
+        it('should contain a class named Topping', function (): void {
             should.exist(sw.Topping);
         });
     });
