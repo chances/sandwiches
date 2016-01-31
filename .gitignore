@@ -12,4 +12,5 @@ ts/declarations/*/
 *.log
 *.node
 
+!ts/lib
 !ts/declarations/sandwiches.d.ts
