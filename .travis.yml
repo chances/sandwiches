@@ -5,7 +5,3 @@ node_js:
   - "iojs"
 before_install:
   - 'npm install -g typescript tsd'
-before_script:
-  - 'tsd reinstall -o'
-  - 'tsd update -o'
-  - 'make'
