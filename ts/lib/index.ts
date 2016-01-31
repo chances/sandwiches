@@ -6,6 +6,6 @@ var sandwiches = {
     Sandwich: Sandwich,
     Recipe: Recipe,
     Topping: Topping
-}
+};
 
 export = sandwiches;
