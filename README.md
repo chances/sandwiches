@@ -4,7 +4,7 @@ A Makefile creation and management utility for any project.
 
 *WARNING:* This utility is **not** ready for use in the wild.
 
-[![NPM Version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![NPM Dependencies][deps-image]][deps-url]
+[![NPM Version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![NPM Dependencies][deps-image]][deps-url] ![Maintenance Status][maintain-image]
 
 ## Installation
 
@@ -58,5 +58,6 @@ Copyright © 2015 Chance Snow
 [deps-image]: https://img.shields.io/david/chances/sandwiches.svg
 [deps-dev-url]: https://david-dm.org/chances/sandwiches#info=devDependencies
 [deps-dev-image]: https://img.shields.io/david/dev/chances/sandwiches.svg
+[maintain-image]: https://img.shields.io/maintenance/yes/2015.svg
 [license-url]: https://github.com/chances/sandwiches/blob/master/LICENSE
 [license-image]: https://img.shields.io/npm/l/sandwiches.svg
